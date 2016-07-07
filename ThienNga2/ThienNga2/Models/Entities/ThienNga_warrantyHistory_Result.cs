@@ -19,7 +19,8 @@ namespace ThienNga2.Models.Entities
         public string warrantyID { get; set; }
         public string Description { get; set; }
         public int status { get; set; }
-        public System.DateTime realeaseDATE { get; set; }
+        public Nullable<System.DateTime> realeaseDATE { get; set; }
         public string itemID { get; set; }
+        public Nullable<System.DateTime> finishFixingDate { get; set; }
     }
 }

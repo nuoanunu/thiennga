@@ -10,7 +10,7 @@ namespace ThienNga2.Controllers
 {
     public class ProductItemController : Controller
     {
-        private ThienNgaEntities3 am = new ThienNgaEntities3();
+        private ThienNgaDatabaseEntities am = new ThienNgaDatabaseEntities();
         // GET: ProductItem
         public ActionResult Index()
         {
@@ -29,6 +29,7 @@ namespace ThienNga2.Controllers
         [HttpPost]
         public ActionResult CreateWhenSale( NewItemViewModel tuple)
         {
+         
             item newitem = tuple.item;
             var productdetailid = am.ThienNga_FindProductDetailID(  newitem.tb_product_detail.producFactoryID).FirstOrDefault();
             tb_customer cus = am.ThienNga_TimSDT2(newitem.tb_customer.phonenumber).FirstOrDefault();
@@ -70,7 +71,7 @@ namespace ThienNga2.Controllers
                     }
                 }
                 am.SaveChanges();
-                return View("NewProductItem", tuple);
+                return View("NewProductItem");
             }
             else return View("NewProductItem", tuple);
             

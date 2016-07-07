@@ -12,7 +12,7 @@ namespace ThienNga2.Areas.Admin.Controllers
     [Authorize(Roles ="admin")]
     public class InventoryController : Controller
     {
-        private ThienNgaEntities3 am = new ThienNgaEntities3();
+        private ThienNgaDatabaseEntities am = new ThienNgaDatabaseEntities();
         // GET: Admin/Invenotry
         public ActionResult Index()
         {

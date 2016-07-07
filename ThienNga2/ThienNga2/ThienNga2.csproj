@@ -225,22 +225,25 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Entities\account.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\AspNetRole.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\AspNetUser.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\AspNetUserClaim.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\AspNetUserLogin.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\C__MigrationHistory.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\database_firewall_rules.cs">
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\DataModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -258,19 +261,19 @@
       <DependentUpon>DataModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\employee.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\inventory.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\item.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\log.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\role.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\sp_helpdiagramdefinition_Result.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
@@ -282,43 +285,58 @@
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\tb_cate.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\tb_customer.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\tb_inventory_name.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\tb_product_detail.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\tb_warranty.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\tb_warranty_activities.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\tb_warrnaty_status.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\ThienNgaModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThienNgaModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\ThienNgaModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\ThienNgaModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThienNgaModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\ThienNga_checkkho_Result.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\ThienNga_findbyIMEI_Result.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\ThienNga_FindProduct_Result.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\ThienNga_findwarranty_Result.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\ThienNga_TimSDT_Result.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Entities\ThienNga_warrantyHistory_Result.cs">
-      <DependentUpon>DataModel.tt</DependentUpon>
+      <DependentUpon>ThienNgaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -344,6 +362,16 @@
       <DependentUpon>DataModel.edmx</DependentUpon>
       <LastGenOutput>DataModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Models\Entities\ThienNgaModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ThienNgaModel.edmx</DependentUpon>
+      <LastGenOutput>ThienNgaModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Entities\ThienNgaModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ThienNgaModel.edmx</DependentUpon>
+      <LastGenOutput>ThienNgaModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\Autocomplete.js" />
@@ -363,6 +391,13 @@
     </EntityDeploy>
     <Content Include="Models\Entities\DataModel.edmx.diagram">
       <DependentUpon>DataModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\Entities\ThienNgaModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ThienNgaModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Entities\ThienNgaModel.edmx.diagram">
+      <DependentUpon>ThienNgaModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
